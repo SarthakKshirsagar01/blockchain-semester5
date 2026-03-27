@@ -74,3 +74,8 @@ npx hardhat test
 
 - Registration currently writes to students[msg.sender], so the owner can only register their own address using registerStudent as implemented.
 - A RollNumber of 0 is treated as non-existent by studentExists.
+
+## Live deployment
+StudentRegistry deployed on Sepolia testnet.
+Contract address: 0x3B309AD222d9661BEd53660d3532bB6fc61d7225
+Etherscan: https://sepolia.etherscan.io/address/0x3B309AD222d9661BEd53660d3532bB6fc61d7225
